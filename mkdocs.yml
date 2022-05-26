@@ -1,0 +1,52 @@
+site_name: CAPE Docs
+
+# Configuration
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+
+
+# Navigation
+nav:
+  - Read Me First: index.md
+  - Introduction:
+    - What is CAPE: introduction/what_is_CAPE.md
+    - Features: introduction/features.md
+    - Architecture: introduction/architecture.md
+    - Use Cases: introduction/use_cases.md
+  - Release Notes:
+    - Ver 0.1: release-notes/0.1.md
+  - Getting Started:
+    - Download: getting-started/download.md
+    - Install: getting-started/install.md
+    - Authentication: getting-started/authentication.md 
+    - Using CAPE CLI/Command set: getting-started/using_CAPE_CLI_command_set.md
+    - Connect to cluster: getting-started/connect_to_cluster.md
+    - Connect to Repo: getting-started/connect_to_repo.md
+    - Deploy sample app: getting-started/deploy_sample_app.md
+  - Deployment:
+    - Deployment Dashboard: deployment/deployment_dashboard.md
+    - Define Apps Definition and Rules: deployment/define_apps_definition_and_rules.md
+    - Schedule Deployment: deployment/schedule_deployments.md 
+    - Rollback Deployment: deployment/rollback_deployment.md
+    - Deploy to K8S/K3 Clusters: deployment/deploy_to_K8s_K3s.md
+    - Deploy from Image Registries: deployment/deploy_from_image_registries.md
+    - Deploy from Package Managment Tools: deployment/deploy_from_package_managment_tools.md
+  - Account Settings: account_settings.md
+  - FAQs: faqs.md
+  - Roadmap: roadmap.md
