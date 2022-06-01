@@ -1,15 +1,26 @@
+# Project info
 site_name: CAPE Docs
+site_description: The official website and documentation site for CAPE
+site_author: CAPE Docs
+site_url: https://docs.cape.sh
+
+
 
 # Configuration
 theme:
   name: material
+  logo: img/capeicon.png
+  favicon: img/capeicon.png
   palette:
     scheme: slate
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+
 extra_css:
     - stylesheets/extra.css
-
-
-
 
 # Navigation
 nav:
