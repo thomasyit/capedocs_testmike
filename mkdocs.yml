@@ -22,6 +22,11 @@ theme:
 extra_css:
     - stylesheets/extra.css
 
+extra:
+  generator: false
+
+
+
 # Navigation
 nav:
   - Read Me First: index.md
