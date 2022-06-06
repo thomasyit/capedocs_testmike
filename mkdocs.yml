@@ -4,7 +4,7 @@ site_description: The official website and documentation site for CAPE
 site_author: CAPE Docs
 site_url: https://docs.cape.sh
 
-
+copyright: Copyright &copy; 2020-2022 CAPE
 
 # Configuration
 theme:
