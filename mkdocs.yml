@@ -25,6 +25,19 @@ extra_css:
 extra:
   generator: false
 
+plugins:
+  - git-revision-date
+
+  # Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
 
 
 # Navigation
