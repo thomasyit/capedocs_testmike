@@ -18,7 +18,7 @@ CAPE uses the NGINX ingress to manage access, first add it's Helm repository:
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 ```
 
-Add the Helm respositories for the CAPE resources:
+Add the Helm repositories for the CAPE resources:
 
 ```shell
 helm repo add cape https://charts.cape.sh/
