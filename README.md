@@ -6,10 +6,17 @@ Welcome to Cape documentation
 
 Cape documentation uses [Material](https://squidfunk.github.io/mkdocs-material/) from [MkDocs](https://www.mkdocs.org/) (a static site generator geared towards technical documentation)
 
-Install the Material package using the following pip commands
+Install the Material package using the following pip command:
 
 ```
 pip install mkdocs-material
+
+```
+
+Install the git revision date plugin using the following pip command:
+
+```
+pip install mkdocs-git-revision-date-plugin
 
 ```
 
