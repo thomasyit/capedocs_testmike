@@ -42,8 +42,8 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Introduction:
-    - What is CAPE: introduction/index.md
+  - What is Cape: index.md
+  - About CAPE:
     - Features: introduction/features.md
     - Architecture: introduction/architecture.md
     - Use Cases: introduction/use_cases.md
