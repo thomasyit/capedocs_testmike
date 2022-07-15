@@ -42,7 +42,6 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Read Me First: index.md
   - Introduction:
     - What is CAPE: introduction/what_is_CAPE.md
     - Features: introduction/features.md
