@@ -56,9 +56,18 @@ kubectl get svc -n ingress-nginx
 
 ## Install CAPE
 
-Install the CAPE components to the cluster with the following command:
+**NOTE**: [Temporarily you need to follow these steps](https://biqmind.atlassian.net/wiki/spaces/HYD/pages/2171863041/Quick+Setup+for+CAPE#Temporary-workaround).
+
+```shell
+git clone git@github.com:biqmind/cape-saas-operator.git -b develop
+cd cape-saas-operator/helm
+```
 
 <!-- TODO: Explain further -->
+
+<!-- TODO: Update when you don't need to clone -->
+
+Install the CAPE components to the cluster with the following command, replacing `{EXTERNAL_IP}` with the public IP address of the Ingress controller:
 
 ```shell
 helm upgrade --install   -f ./cape/values.yaml cape  ./cape \
@@ -75,6 +84,23 @@ Verify that Helm installed the CAPE components:
 ```shell
 kubectl get pods -n cape
 ```
+
+**NOTE**: Temporarily you need to patch the image tags in the deployments:
+
+```shell
+kubectl edit deploy web -n cape
+```
+
+- Change `capesh/cape-api` to `preview-CAPE-28` tag.
+- Change `capesh/cape-ui` to `dev2` tag or `v2` tag.
+
+```shell
+kubectl edit deploy manager -n cape
+```
+
+- Change `capesh/cape-manager` to `preview-CAPE-212` tag.
+
+Open the {EXTERNAL_IP} address to access the CAPE UI.
 
 ## Select organization
 
