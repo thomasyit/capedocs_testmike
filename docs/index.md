@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# What is CAPE
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+CAPE helps teams deliver Kubernetes applications consistently and confidently.
 
-## Commands
+CAPE automates delivery of Kubernetes applications, sitting between continuous processes and clusters to enable complex deployment strategies anywhere including airgapped scenarios with limited, intermittent, or no connectivity.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+CAPE plugs into existing tool chains supporting both pull or push deployment approaches, reducing time and expertise spent on scripting and customizing tooling for Kubernetes application deployments.
