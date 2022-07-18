@@ -121,6 +121,8 @@ CAPE supports multiple Kubernetes providers, including:
 - RedHat OCP
 - Kubernetes running on private clusters and on-premises
 
+You create a cluster from the _Configuration_ -> _Clusters_ menu item.
+
 In each case you need to set a name for the cluster and a region.
 
 You can connect to the cluster by either uploading a kubeconfig secret file, or by running a kubectl command, which takes the following form:
@@ -147,13 +149,13 @@ When the Pods are ready, the federation shows in the list with a "Success" state
 
 ## Connect repository
 
-Connect a repository from the _Application Management_ -> _Repositories_ menu item. You can select any public or private git-based repositories or helm charts, supplying a name and a URL.
+Connect a repository from the _Configuration_ -> _Repositories_ menu item. You can select any public or private git-based repositories or helm charts, supplying a name and a URL.
 
-If you need to define credentials for private repositories or Helm charts, add them from the _Application Management_ -> _Repositories_ menu item first using a user ID and password or private key.
+If you need to define credentials for private repositories or Helm charts, add them from the _Configuration_ -> _Repositories_ menu item first using a user ID and password or private key.
 
 ## Create application
 
-Create an application from the _Application Management_ -> _Applications_ menu item.
+Create an application from the _Configuration_ -> _Applications_ menu item.
 
 You first give the application a name, a repository and branch to use, and the name space to create the application in.
 
@@ -163,7 +165,7 @@ CAPE supports three deployment methods: Helm, Kustomize, and Manifest files. Sel
 
 ## Create a deployment
 
-Create a deployment from the _Application Management_ -> _Deployments_ menu item.
+Create a deployment from the _Deployments_ menu item.
 
 You first give the deployment a name, an application to deploy, the namespace to deploy the application to, and git branch or tag to pull the application definitions from.
 
