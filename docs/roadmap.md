@@ -19,7 +19,7 @@
 
 ## Airgapped & Edge deployments
 
-- Secure and consistent deployment to clusters with limited/intermittent or no connectivity
+- Secure and consistent deployment to clusters with limited/intermittent or no connectivity
 
 ## Advanced Delivery
 

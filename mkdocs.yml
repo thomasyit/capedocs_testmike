@@ -42,7 +42,7 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - What is Cape: index.md
+  - What is CAPE: index.md
   - About CAPE:
     - Features: introduction/features.md
     - Architecture: introduction/architecture.md
