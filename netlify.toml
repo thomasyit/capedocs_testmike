@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://testmike.netlify.app/"
-  to = "https://testmike.netlify.app/0.2/"
+  from = "/*"
+  to = "/0.2/"
   status = 200
   force = true # COMMENT: ensure that we always redirect
