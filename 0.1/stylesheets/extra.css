@@ -1,0 +1,15 @@
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #1f2325;
+  --md-typeset-a-color: #34a3d3;
+  --md-accent-fg-color: #34a3d3;
+
+}
+
+{% extends "base.html" %}
+
+{% block outdated %}
+  You're not viewing the latest version.
+  <a href="{{ '../' ~ base_url }}"> 
+    <strong>Click here to go to latest.</strong>
+  </a>
+{% endblock %}
