@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "/0.2/"
-  status = 200
-  force = true # COMMENT: ensure that we always redirect
