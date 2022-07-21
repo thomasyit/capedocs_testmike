@@ -18,12 +18,16 @@ theme:
     - navigation.tracking
     - navigation.indexes
     - navigation.top
+  custom_dir: overrides
 
 extra_css:
     - stylesheets/extra.css
+    
 
 extra:
   generator: false
+  version:
+      provider: mike
 
 plugins:
   - git-revision-date
